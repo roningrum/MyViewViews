@@ -176,20 +176,15 @@
                 android:src="@drawable/photo_2" />
 
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_centerVertical="true"
-                android:layout_toEndOf="@id/profile_image"
+                style="@style/TextContent"
+                android:layout_toEndOf="@+id/profile_image"
+                android:layout_toRightOf="@id/profile_image"
                 android:text="@string/name"
                 android:textColor="@android:color/black" />
         </RelativeLayout>
 
         <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="@dimen/activity_horizontal_margin"
-            android:layout_marginEnd="@dimen/activity_horizontal_margin"
-            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            style="@style/ButtonGeneral"
             android:text="@string/buy" />
     </LinearLayout>
 </ScrollView>
